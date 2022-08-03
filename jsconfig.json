@@ -5,8 +5,12 @@
 		"resolveJsonModule": true,
 		"allowSyntheticDefaultImports": true,
 		"paths":{
-			"$lib":["src/config"],
-			"$lib/*":["src/config/*"],
+			"$lib":["src/lib"],
+			"$lib/*":["src/lib/*"],
+			"$providers":["src/providers"],
+			"$providers/*":["src/providers/*"],
+			"$components/*":["src/components/*"],
+			
 		}
 	},
 	"include": ["src/**/*.d.ts","src/**/*.js","src/**/*.svelte"]

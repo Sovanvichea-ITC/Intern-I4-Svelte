@@ -7,9 +7,9 @@ const config = {
   kit: {
     adapter: adapter(),
     alias:{
-      //'$components':path.resolve('./src/components'),
-      '$cofig':path.resolve('./src/config'),
-      //'$providers':path.resolve('./src/providers')
+      '$components':path.resolve('./src/components'),
+      '$lib':path.resolve('./src/lib'),
+      '$providers':path.resolve('./src/providers')
     }
   },
 
